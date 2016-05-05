@@ -1,0 +1,23 @@
+1. load csv files:
+    $ load a test1.csv
+    $ load b test2.csv
+
+2. projection:
+    $ select col1 col5 from a
+    $ select att3 from b
+
+3. join:
+    $ join inner a col1 on b att1
+    $ join outer a col2 on b att3
+
+4. arithmetic compute:
+    $ compute col1 + col3 from a
+    $ compute att2 - att3 from b 
+    $ compute col1 * col3 from a
+    $ compute att2 / att1 from b
+
+5. aggregation:
+    $ aggregation min col3 from a
+    $ aggregation max att2 from b
+    $ aggregation median att1 from b
+    $ aggregation average col2 from a
