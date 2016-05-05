@@ -5,6 +5,7 @@
 2. projection:
     $ select col1 col5 from a
     $ select att3 from b
+    $ select col2 from a
 
 3. join:
     $ join inner a col1 on b att1
